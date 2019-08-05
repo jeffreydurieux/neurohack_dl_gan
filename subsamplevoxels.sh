@@ -1,5 +1,4 @@
 #!/bin/bash
-
 dir=$1
 
 mkdir output/
