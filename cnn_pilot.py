@@ -1,6 +1,5 @@
 def cnn_pilot():
 
-
     import nibabel as nib
     import os
     import numpy as np
