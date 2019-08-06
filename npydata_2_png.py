@@ -1,3 +1,4 @@
+# Author: Jeffrey Durieux j.durieux@fsw.leidenuniv.nl
 # script for converting np.arrays to png images
 
 import os 
