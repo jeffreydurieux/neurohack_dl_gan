@@ -23,7 +23,7 @@ from scipy import misc
 
 def convertToSlices(filepath, outPath='.'):
     if not os.path.exists(filepath):
-        print 'Filepath "'+filepath+'" does not exist. Exiting'
+        print('Filepath "'+filepath+'" does not exist. Exiting')
         sys.exit(2)
 
     outdir = outPath + '/slices'
@@ -52,7 +52,7 @@ def convertToSlices(filepath, outPath='.'):
 # Optional output path
 args = sys.argv[1:]
 if len(args) < 1:
-    print "Expects at least 1 argument: input file path and (optional) output directory, \n EXAMPLE: python test.py ./myNifti.nii.gz ./output "
+    print ("Expects at least 1 argument: input file path and (optional) output directory, \n EXAMPLE: python test.py ./myNifti.nii.gz ./output ")
 inPath = args[0]
 outPath = args[1] if len(args) == 2 else '.'
 
