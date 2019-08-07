@@ -34,11 +34,11 @@ def resize_images(pngpath, outPath, size):
         
     
         
-    outPath = outPath + '/slices/axis'
+    outPath = outPath + '/axis'
     
     for axis in [0, 1, 2]:
         # coronal, sag, axial directions
-        filepath = pngpath + '/slices/axis' + str(axis) + '/'
+        filepath = pngpath + '/axis' + str(axis) + '/'
         out = outPath + str(axis)
         
         if not os.path.exists(out):
