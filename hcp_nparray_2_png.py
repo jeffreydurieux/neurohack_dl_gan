@@ -24,7 +24,8 @@ def run_create_png(subjectrange):
     for subject in range(2):
         os.chdir('/home/ubuntu/data/hcp_npy_data/')
         datasubject = np.load('hcp_data_{}.npy'.format(subject))
-    
+        datasubject = datasubject[0]
+        
         os.chdir('/home/ubuntu/data/hcp_pngimages/')
         os.makedirs('subject{}'.format(subject))
         os.chdir('subject{}'.format(subject))
