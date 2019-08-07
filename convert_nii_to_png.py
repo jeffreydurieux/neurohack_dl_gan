@@ -29,7 +29,7 @@ def convertToSlices(filepath, outPath):
     filename =  filepath.split('/')[-1] # get the filename with extension
     filename = filename.split('.nii')[0] # remove .nii or .nii.gz from name
 
-    outPath = outPath + '/slices/axis'
+    outPath = outPath + '/axis'
     data = nib.load(filepath).get_data()
 
     for axis in [0, 1, 2]:
