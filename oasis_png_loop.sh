@@ -3,6 +3,7 @@
 # create scan list file
 rm scan_list.txt
 rm subj_list.txt
+cd /home/ubuntu/OASIS3_T
 ls | sed 's/_MR*/ /' | awk '{print $1}' | uniq >> subj_list.txt
 
 # first loop: extract directory of first T1w image for each unique subject
@@ -17,7 +18,8 @@ done
 for scan in $(cat 'scan_list.txt') ; do
 
 a = ${scan}_MR_d*/* | awk 'NR==3{print $1}' | sed 's/_ses*/ /' | awk '{print $1}' | sed 's/sub-//'
-outDir=/home/ubuntu/data/oasis_pngimages/$a
+print $a
+outDir=/home/ubuntu/data/oasis_pngimages/${a}
 mkdir -p $outDir
 
 # run  script with input individual T1w image and output to
