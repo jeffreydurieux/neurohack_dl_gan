@@ -9,13 +9,13 @@ axis 0, axis 1 and axis 2.
 Params
 ------
 inputFile: path to niftii
-outputDir: default is '.'
+outputDir: path to output directory
 
 Returns
 -------
 None
 
-Saves files to outputDir/slices/
+Saves files to outputDir/
 '''
 import os, sys
 import nibabel as nib
