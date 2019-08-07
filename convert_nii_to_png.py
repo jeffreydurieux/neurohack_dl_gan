@@ -21,7 +21,7 @@ import os, sys
 import nibabel as nib
 from scipy import misc
 
-def convertToSlices(filepath, outPath='.'):
+def convertToSlices(filepath, outPath):
     if not os.path.exists(filepath):
         print('Filepath "'+filepath+'" does not exist. Exiting')
         sys.exit(2)
@@ -52,9 +52,9 @@ def convertToSlices(filepath, outPath='.'):
 # Requires input file path,
 # Optional output path
 args = sys.argv[1:]
-if len(args) < 1:
+if len(args) < 2:
     print("Expects at least 1 argument: input file path and (optional) output directory, \n EXAMPLE: python test.py ./myNifti.nii.gz ./output ")
 inPath = args[0]
-outPath = args[1] if len(args) == 2 else '.'
+outPath = args[1]
 
 convertToSlices(inPath, outPath)
