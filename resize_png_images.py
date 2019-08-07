@@ -59,7 +59,7 @@ def resize_images(pngpath, outPath, size):
             slicenumber = slicenumber.split('.png')[0]
             origimg = Image.open(i)
             
-            outFile =  out + '/' + filename_noext + "_" + str(size) + \
+            outFile =  out + '/' + filename_noext + "_" +  \
             "_slice_" + str(size) + "x" + str(size) + ".png"
             
             img = image_padding(origimg, size)
