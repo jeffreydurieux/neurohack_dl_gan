@@ -1,4 +1,4 @@
-# ***"Oldify for Brains": what will your brain look like in 40 years?***
+# ***"Oldify for Brain": what will your brain look like in 40 years?***
 ## Neurohackademy project: deep learing and GANs
 
 # 
