@@ -29,13 +29,13 @@ This is the copy of PyTorch implementations  by [Jun-Yan Zhu](https://github.com
 - Train a model:
 ```bash
 #!./scripts/train_cyclegan.sh
-python train.py --dataroot ./datasets/data --name mydata --model cycle_gan --input_nc 1 --output_nc 1 --netD n_layers --n_layers_D 6 --norm batch --init_type kaiming --load_size 128 --crop_size 128 --no_flip
+python train.py --dataroot ./datasets/data --name mydata --model cycle_gan --input_nc 1 --output_nc 1 --netD n_layers --n_layers_D 6 --batch_size 16 --preprocess none --norm batch --init_type kaiming --load_size 128 --crop_size 128 --no_flip
 ```
 To see more intermediate results, check out `./checkpoints/maps_cyclegan/web/index.html`.
 - Test the model:
 ```bash
 #!./scripts/test_cyclegan.sh
-python test.py --dataroot ./datasets/data --name mydata --model cycle_gan --input_nc 1 --no_dropout --output_nc 1 --netD n_layers --n_layers_D 6 --norm batch --init_type kaiming --load_size 128 --crop_size 128 --no_flip
+python test.py --dataroot ./datasets/test_data --name mydata --model cycle_gan --input_nc 1 --output_nc 1 --netD n_layers --n_layers_D 6 --batch_size 16 --preprocess none --norm batch --init_type kaiming --load_size 128 --crop_size 128 --no_flip
 ```
 - The test results will be saved to a html file here: `./results/maps_cyclegan/latest_test/index.html`.
 
