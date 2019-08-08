@@ -7,9 +7,9 @@
 
 Deep learning and GANs team: <br>
 (add email addresses?) <br>
-Anna Truzzi <br>
+Anna Truzzi (truzzia@tcd.ie) <br>
 Bastian David <br>
-Benjamin Wade <br>
+Benjamin Wade (benjamin.sc.wade@gmail.com) <br>
 Jeffrey Durieux <br>
 Meltem Atay <br>
 Suniyya Waraich <br>
