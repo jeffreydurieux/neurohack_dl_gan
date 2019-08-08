@@ -20,9 +20,10 @@ def save_to_nii(inputdir, realnii, outname):
         else:
             vol_array=np.dstack((vol_array, curr_slice))
 
-    final_nifti=nib.Nifti1Image(vol_array, real_nifti.affine, header=real_nifti.header)
-    #final_nifti.to_filename(outname)
-    nib.save(final_nifti, outname)
+#    final_nifti=nib.Nifti1Image(vol_array, real_nifti.affine, header=real_nifti.header)
+    final_nifti=nib.Nifti1Image(vol_array)
+    final_nifti.to_filename(outname)
+    #nib.save(final_nifti, outname)
 
 
 if __name__ == "__main__":
