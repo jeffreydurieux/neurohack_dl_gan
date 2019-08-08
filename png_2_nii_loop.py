@@ -23,12 +23,12 @@ sub_list = np.unique(np.array(sub_list))
 for sub in sub_list[0:2]:
     inputdir = base_path_input+'/%s' %sub
     pngs = glob.glob(os.path.join(base_path,'sub-%s_*.nii.gz' %id))
-    outdir = base_path_output+'/%s' %sub
+    outdir = base_path_output+'/%s_GANimage.png' %sub
     realnii = base_path_realnii+'%s_MR_d0105/*/*.nii.gz' %sub
     subprocess.call("python png_2_nii_GANversion.py -id %s -rn %s -out %s" %(inputdir, realnii, outdir), shell=True)
 
 
-python png_2_nii_GANversion.py -id /home/ubuntu/data/oasis_pngimages/OAS31033/axis0/sub-OAS31033_ses-d0002_T1w_slice_99.png -rn /home/ubuntu/OASIS_cropped/sub-OAS31033_ses-d1717_T1w.nii.gz -out /home/ubuntu/data/testfolder 
+#python png_2_nii_GANversion.py -id /home/ubuntu/data/oasis_pngimages/OAS31033/axis0/sub-OAS31033_ses-d0002_T1w_slice_99.png -rn /home/ubuntu/OASIS_cropped/sub-OAS31033_ses-d0002_T1w.nii.gz -out /home/ubuntu/data/testfolder 
 
 
 """
