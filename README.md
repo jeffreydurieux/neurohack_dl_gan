@@ -6,11 +6,10 @@
 
 
 Deep learning and GANs team: <br>
-(add email addresses?) <br>
 Anna Truzzi (truzzia@tcd.ie) <br>
-Bastian David <br>
+Bastian David (Bastian.david90@gmail.com) <br>
 Benjamin Wade (benjamin.sc.wade@gmail.com) <br>
-Jeffrey Durieux <br>
+Jeffrey Durieux (durieux.jeffrey@gmail.com) <br> 
 Meltem Atay (meltemiatay@gmail.com) <br>
-Suniyya Waraich <br>
+Suniyya Waraich (suniyya94@gmail.com) <br>
 Alberto Lazari (alberto.lazari@univ.ox.ac.uk) 
