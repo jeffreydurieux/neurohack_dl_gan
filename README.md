@@ -3,7 +3,7 @@
 
 # 
 
-\includegraphics[]{images/GAN_examples.png}
+\includegraphics[]{images/test.png}
 
 
 Deep learning and GANs team: <br>
