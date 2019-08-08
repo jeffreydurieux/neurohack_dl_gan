@@ -4,6 +4,7 @@ import numpy as np
 import nibabel as nib
 import glob
 from PIL import Image
+import imageio
 import warnings
 
 def save_to_nii(inputdir, realnii, outname):
@@ -12,7 +13,7 @@ def save_to_nii(inputdir, realnii, outname):
     vol_array = []
     vol_array = np.array(vol_array)
     for png in sorted(glob.glob(os.path.join(inputdir,'*.png'))):
-        curr_slice=np.array(Image.open(png).convert('L'))
+        curr_slice=imageio.imread(png)
         #curr_slice=np.fliplr(np.flipud(curr_slice))
         if first_slice:
             vol_array=curr_slice
@@ -20,8 +21,7 @@ def save_to_nii(inputdir, realnii, outname):
         else:
             vol_array=np.dstack((vol_array, curr_slice))
 
-#    final_nifti=nib.Nifti1Image(vol_array, real_nifti.affine, header=real_nifti.header)
-    final_nifti=nib.Nifti1Image(vol_array, real_nifti.affine)
+    final_nifti=nib.Nifti1Image(vol_array, real_nifti.affine, header=real_nifti.header)
     final_nifti.to_filename(outname)
     #nib.save(final_nifti, outname)
 
