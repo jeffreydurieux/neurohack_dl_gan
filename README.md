@@ -3,7 +3,7 @@
 
 # 
 
-![]{images/test.png}
+![some image]{images/test.png}
 
 
 Deep learning and GANs team: <br>
