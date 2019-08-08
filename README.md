@@ -3,7 +3,7 @@
 
 # 
 
-! [A test image] (GAN_examples.png)
+\includegraphics[]{images/GAN_examples.png}
 
 
 Deep learning and GANs team: <br>
@@ -14,3 +14,4 @@ Jeffrey Durieux (durieux.jeffrey@gmail.com) <br>
 Meltem Atay (meltemiatay@gmail.com) <br>
 Suniyya Waraich (suniyya94@gmail.com) <br>
 Alberto Lazari (alberto.lazari@univ.ox.ac.uk) 
+
