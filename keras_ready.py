@@ -5,19 +5,17 @@ import numpy as np
 from os import listdir
 from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
-
 channels = 1 # 1: Grayscale, 3: RGB
 label_counts = 2 # how many classes in dataset?
 test_ratio = 0.2 # split 20% of data as test set the 80 % would be the training set
 input_folder = 'alldata'
 data_folder = 'data1'
-
 def get_data(input_folder):
     my_data = np.load(input_folder)
-    #my_data = imread(input_folder, flatten= True if channels == 1 else False) # to make all the color layers into a single grayscale layer
-    #my_data = imresize(my_data, (dim1, dim2, channels))
-    # if your data is a picture uncomment the code above
-    # so you can read your data using imread and resize your data using imresize
+         #my_data = imread(input_folder, flatten= True if channels == 1 else False) # to make all the color layers into a single grayscale layer
+         #my_data = imresize(my_data, (dim1, dim2, channels)
+         # if your data is a picture uncomment the code above
+         # so you can read your data using imread and resize your data using imresize
     return my_data
 
 labels = listdir(input_folder)
