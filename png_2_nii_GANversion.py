@@ -20,7 +20,7 @@ def save_to_nii(inputdir, realnii, outname):
         else:
             vol_array=np.dstack((vol_array, curr_slice))
 
-    final_nifti=nib.Nifti1Image(np.rot90(np.rot90(vol_array),axes=(2,1)), real_nifti.affine, header=real_nifti.header)
+    final_nifti=nib.Nifti1Image(vol_array, real_nifti.affine, header=real_nifti.header)
     final_nifti.to_filename(outname)
     
 
