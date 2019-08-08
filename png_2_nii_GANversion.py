@@ -9,7 +9,8 @@ import warnings
 def save_to_nii(inputdir, realnii, outname):
     real_nifti=nib.load(realnii)
     first_slice=True
-    global vol_array
+    vol_array = []
+    vol_array = np.array(vol_array)
     for png in sorted(glob.glob(os.path.join(inputdir,'*.png'))):
         curr_slice=np.array(Image.open(png).convert('L'))
         #curr_slice=np.fliplr(np.flipud(curr_slice))
