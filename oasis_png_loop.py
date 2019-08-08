@@ -4,7 +4,7 @@ import re
 import numpy as np
 import subprocess
 
-base_path = '/home/ubuntu/OASIS3_T1'
+base_path = '/home/ubuntu/OASIS_cropped'
 
 sub_list = []
 scan_list = []
@@ -21,7 +21,7 @@ for id in sub_list:
     flist = glob.glob(os.path.join(base_path,'%s_MR_*/*/*.nii.gz' %id))
     scan_list.extend(flist)
 
-for scan in scan_list[0:2]:
+for scan in scan_list:
     print(scan)
     subid = re.findall(r"\w+_M",scan)[0][:-2]
     print(subid)
