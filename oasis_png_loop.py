@@ -10,7 +10,7 @@ sub_list = []
 scan_list = []
 for item in os.listdir(base_path):
     try:
-        subid = re.findall(r"^\w+_M",item)[0]
+        subid = re.findall(r"\w+_s",item)[0]
         sub_list.append(subid[:-2])
     except:
         continue
@@ -18,12 +18,13 @@ for item in os.listdir(base_path):
 sub_list = np.unique(np.array(sub_list))
 
 for id in sub_list:
-    flist = glob.glob(os.path.join(base_path,'%s_MR_*/*/*.nii.gz' %id))
+    flist = glob.glob(os.path.join(base_path,'sub-%s_*.nii.gz' %id))
     scan_list.extend(flist)
+
 
 for scan in scan_list:
     print(scan)
-    subid = re.findall(r"\w+_M",scan)[0][:-2]
+    subid = re.findall(r"\w+_s",scan)[0][:-2]
     print(subid)
     outdir = '/home/ubuntu/data/oasis_pngimages/%s' %subid
     print(outdir)
