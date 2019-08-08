@@ -3,7 +3,7 @@
 
 # 
 
-! [] (images/GAN_examples.png)
+! [A test image] (images/GAN_examples.png)
 
 
 Deep learning and GANs team: <br>
