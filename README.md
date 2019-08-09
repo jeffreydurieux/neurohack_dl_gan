@@ -13,7 +13,7 @@ That none of them is real!
 ### STEP 2 – Estimate “brain age” of fake brains
 
 ### ... but how does it work?
-Basic architecture of our Generative Adversarial Networks (GANs)
+Basic architecture of our Generative Adversarial Networks (GANs) (based on https://skymind.com/wiki/generative-adversarial-network-gan)
 
 
 This repo was brought to you by the amazing Deep learning and GANs team of Neurohackademy 2019: <br>
