@@ -4,7 +4,8 @@
 ### What do these people have in common?
 
 ![GAN_examples](images/GAN_examples.png)
-https://thispersondoesnotexist.com/ (Try this website, each time it will continue to generate new faces)
+https://thispersondoesnotexist.com/
+(Try this website, each time it will continue to generate new faces)
 That none of them is real!
 More:(https://www.lyrn.ai/2018/12/26/a-style-based-generator-architecture-for-generative-adversarial-networks/)
 
@@ -26,6 +27,7 @@ Suniyya Waraich (suniyya94@gmail.com) <br>
 Alberto Lazari (alberto.lazari@univ.ox.ac.uk)
 
 ```
+Original GAN Paper
 @inproceedings{goodfellow2014generative,
   title={Generative adversarial nets},
   author={Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
@@ -33,4 +35,3 @@ Alberto Lazari (alberto.lazari@univ.ox.ac.uk)
   pages={2672--2680},
   year={2014}
 }
-``
