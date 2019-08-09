@@ -1,0 +1,9 @@
+name: neurohack_dl_gan
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - torch
+  - torchvision
+  - matplotlib
+ 
