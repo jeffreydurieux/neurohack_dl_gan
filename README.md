@@ -8,7 +8,6 @@ https://thispersondoesnotexist.com/
 
 (Try this website, each time it will continue to generate new faces)
 
-That none of them is real!
 More technical information is here:
 https://www.lyrn.ai/2018/12/26/a-style-based-generator-architecture-for-generative-adversarial-networks/
 
