@@ -2,8 +2,10 @@
 
 tmux detach
 
-cat list_subjects.txt | xargs -n 1 -P 32 ../fast_script
+ls /home/ubuntu/data/reconstructed_nifti/young/ | xargs -n 1 -P 32 ./1_preprocess_niftified_pngs.sh
 
+
+ls | xargs -n 1 -P 32 " bet $1 "$1"_brain "
 
 bet X brain.nii.gz
 
