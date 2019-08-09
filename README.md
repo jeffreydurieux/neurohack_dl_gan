@@ -20,7 +20,7 @@ This repo was brought to you by the amazing Deep learning and GANs team of Neuro
 Anna Truzzi (truzzia@tcd.ie) <br>
 Bastian David (Bastian.david90@gmail.com) <br>
 Benjamin Wade (benjamin.sc.wade@gmail.com) <br>
-Jeffrey Durieux (durieux.jeffrey@gmail.com) <br> 
+Jeffrey Durieux (j.durieux@fsw.leidenuniv.nl) <br> 
 Meltem Atay (meltemiatay@gmail.com) <br>
 Suniyya Waraich (suniyya94@gmail.com) <br>
 Alberto Lazari (alberto.lazari@univ.ox.ac.uk) 
