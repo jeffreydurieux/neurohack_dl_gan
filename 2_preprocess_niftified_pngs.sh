@@ -1,4 +1,4 @@
 set -x
 subj=$1
 
-fast /data/young/"$subj"_derivative/"$subj"_brain.nii.gz
+fast /data/"$subj"_derivative/"$subj"_brain.nii.gz
