@@ -2,7 +2,7 @@
 
 tmux detach
 
-ls /home/ubuntu/data/reconstructed_nifti/young/ | xargs -n 1 -P 32 ./1_preprocess_niftified_pngs.sh
+ls /data/ | xargs -n 1 -P 32 ./1_preprocess_niftified_pngs.sh
 
 
 ls | xargs -n 1 -P 32 " bet $1 "$1"_brain "
