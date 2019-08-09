@@ -1,7 +1,7 @@
 set -x
 subj=$1
 
-dataDir=/home/ubuntu/data/reconstructed_nifti/analysis_young/"$subj"_derivative
+dataDir=/data/analysis_young/"$subj"_derivative
 
 echo "extract volume for WM"
 result1=$(fslstats $dataDir/pv1_volume -V)
