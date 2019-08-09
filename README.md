@@ -1,12 +1,22 @@
-# ***"Oldify for Brain": what will your brain look like in 40 years?***
+# ***"Oldify for Brains": what will your brain look like in 40 years?***
 ## Neurohackademy project: deep learing and GANs
 
-# 
+### What do these people have in common?
 
-![some image](images/GAN_examples.png)
+![GAN_examples](images/GAN_examples.png)
+
+That none of them is real!
 
 
-Deep learning and GANs team: <br>
+### STEP 1 – Generating “fake” old brains
+
+### STEP 2 – Estimate “brain age” of fake brains
+
+### ... but how does it work?
+Basic architecture of our Generative Adversarial Networks (GANs)
+
+
+This repo was brought to you by the amazing Deep learning and GANs team of Neurohackademy 2019: <br>
 Anna Truzzi (truzzia@tcd.ie) <br>
 Bastian David (Bastian.david90@gmail.com) <br>
 Benjamin Wade (benjamin.sc.wade@gmail.com) <br>
