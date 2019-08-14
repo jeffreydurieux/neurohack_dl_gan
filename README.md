@@ -20,7 +20,7 @@ Basic architecture of our Generative Adversarial Networks (GANs) (based on https
 
 
 This repo was brought to you by the amazing Deep learning and GANs team of Neurohackademy 2019: <br>
-Alberto Lazari [alberto.lazari@univ.ox.ac.uk]
+Alberto Lazari [alberto.lazari@univ.ox.ac.uk] <br>
 Anna Truzzi [truzzia@tcd.ie] <br>
 Bastian David [Bastian.david90@gmail.com] <br>
 Benjamin Wade [benjamin.sc.wade@gmail.com] <br>
